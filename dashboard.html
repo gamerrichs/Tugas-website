@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(120deg, #00b4db, #0083b0);
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 700px;
+      margin: auto;
+      backdrop-filter: blur(10px);
+    }
+    h1 {
+      color: #ffdd00;
+    }
+    button {
+      margin-top: 20px;
+      background: #ff4444;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #cc0000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Selamat Datang di Dashboard!</h1>
+    <p><strong>Kelas:</strong> XI TJKT 2</p>
+    <p><strong>No. Absen:</strong> 25</p>
+
+    <p>
+      Halo, nama saya <strong>Richien Sastrono</strong>. Saya adalah siswa dari 
+      <strong>SMK Ma'arif Ngoro</strong> yang sedang mempelajari pemrograman web. 
+      Saya tertarik dengan dunia teknologi dan ingin memahami cara membuat 
+      website yang menarik serta bermanfaat.
+    </p>
+
+    <p>
+      Dalam pembelajaran ini, saya menggunakan <strong>HTML</strong> dan 
+      <strong>CSS</strong> untuk membuat tampilan web yang sederhana namun 
+      fungsional. Saya berharap bisa terus mengembangkan kemampuan saya di bidang 
+      <strong>web development</strong> agar dapat berguna di masa depan dan 
+      menginspirasi beberapa orang untuk berusaha membuat website dengan tujuan tertentu.
+    </p>
+
+    <h2>Berikut ini macam-macam fungsi dan tujuan membuat website:</h2>
+    <ol style="text-align: left; display: inline-block;">
+      <li>Sarana informasi</li>
+      <li>Sarana komunikasi</li>
+      <li>Sarana transaksi online</li>
+      <li>Sarana branding</li>
+      <li>Sarana marketing</li>
+      <li>Sebagai virtual asset</li>
+    </ol>
+
+    <br>
+    <button onclick="nextPage()">Ke Halaman Berikutnya</button>
+  </div>
+
+  <script>
+    function nextPage() {
+      window.location.href = "fungsi.html";
+    }
+  </script>
+</body>
+</html>
